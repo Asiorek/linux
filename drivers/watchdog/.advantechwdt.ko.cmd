@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/advantechwdt.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/watchdog/advantechwdt.ko drivers/watchdog/advantechwdt.o drivers/watchdog/advantechwdt.mod.o

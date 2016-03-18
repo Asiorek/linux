@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/max8688.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/max8688.ko drivers/hwmon/pmbus/max8688.o drivers/hwmon/pmbus/max8688.mod.o

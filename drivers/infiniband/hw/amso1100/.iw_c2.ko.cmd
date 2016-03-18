@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/amso1100/iw_c2.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/hw/amso1100/iw_c2.ko drivers/infiniband/hw/amso1100/iw_c2.o drivers/infiniband/hw/amso1100/iw_c2.mod.o

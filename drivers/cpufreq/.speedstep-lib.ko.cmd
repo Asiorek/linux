@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/speedstep-lib.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/cpufreq/speedstep-lib.ko drivers/cpufreq/speedstep-lib.o drivers/cpufreq/speedstep-lib.mod.o

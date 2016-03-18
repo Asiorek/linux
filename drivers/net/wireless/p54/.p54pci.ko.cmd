@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/p54/p54pci.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/p54/p54pci.ko drivers/net/wireless/p54/p54pci.o drivers/net/wireless/p54/p54pci.mod.o

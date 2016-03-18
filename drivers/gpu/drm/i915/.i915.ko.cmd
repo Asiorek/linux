@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i915/i915.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/gpu/drm/i915/i915.ko drivers/gpu/drm/i915/i915.o drivers/gpu/drm/i915/i915.mod.o

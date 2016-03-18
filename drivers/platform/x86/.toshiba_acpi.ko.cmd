@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/toshiba_acpi.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/platform/x86/toshiba_acpi.ko drivers/platform/x86/toshiba_acpi.o drivers/platform/x86/toshiba_acpi.mod.o

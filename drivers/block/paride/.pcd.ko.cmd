@@ -1,0 +1,1 @@
+cmd_drivers/block/paride/pcd.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/block/paride/pcd.ko drivers/block/paride/pcd.o drivers/block/paride/pcd.mod.o

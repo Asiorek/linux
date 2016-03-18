@@ -1,0 +1,1 @@
+cmd_drivers/video/tdfxfb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/tdfxfb.ko drivers/video/tdfxfb.o drivers/video/tdfxfb.mod.o

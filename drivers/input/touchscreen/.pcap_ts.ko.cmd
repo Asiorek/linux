@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/pcap_ts.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/pcap_ts.ko drivers/input/touchscreen/pcap_ts.o drivers/input/touchscreen/pcap_ts.mod.o

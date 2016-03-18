@@ -1,0 +1,1 @@
+cmd_drivers/video/fb_sys_fops.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/fb_sys_fops.ko drivers/video/fb_sys_fops.o drivers/video/fb_sys_fops.mod.o

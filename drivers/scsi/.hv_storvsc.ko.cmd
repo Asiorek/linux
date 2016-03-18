@@ -1,0 +1,1 @@
+cmd_drivers/scsi/hv_storvsc.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/scsi/hv_storvsc.ko drivers/scsi/hv_storvsc.o drivers/scsi/hv_storvsc.mod.o

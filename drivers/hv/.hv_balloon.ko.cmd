@@ -1,0 +1,1 @@
+cmd_drivers/hv/hv_balloon.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hv/hv_balloon.ko drivers/hv/hv_balloon.o drivers/hv/hv_balloon.mod.o

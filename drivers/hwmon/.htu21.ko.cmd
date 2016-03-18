@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/htu21.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/htu21.ko drivers/hwmon/htu21.o drivers/hwmon/htu21.mod.o

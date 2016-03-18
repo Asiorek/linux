@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/mv88e6xxx_drv.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/dsa/mv88e6xxx_drv.ko drivers/net/dsa/mv88e6xxx_drv.o drivers/net/dsa/mv88e6xxx_drv.mod.o

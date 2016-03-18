@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/smm665.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/smm665.ko drivers/hwmon/smm665.o drivers/hwmon/smm665.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/ltc2978.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/ltc2978.ko drivers/hwmon/pmbus/ltc2978.o drivers/hwmon/pmbus/ltc2978.mod.o

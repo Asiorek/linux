@@ -1,0 +1,1 @@
+cmd_lib/test-string_helpers.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o lib/test-string_helpers.ko lib/test-string_helpers.o lib/test-string_helpers.mod.o

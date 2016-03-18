@@ -1,0 +1,1 @@
+cmd_drivers/net/arcnet/com20020_cs.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/arcnet/com20020_cs.ko drivers/net/arcnet/com20020_cs.o drivers/net/arcnet/com20020_cs.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8192e/rtl8192e/r8192e_pci.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/rtl8192e/rtl8192e/r8192e_pci.ko drivers/staging/rtl8192e/rtl8192e/r8192e_pci.o drivers/staging/rtl8192e/rtl8192e/r8192e_pci.mod.o

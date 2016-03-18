@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/toim3232-sir.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/irda/toim3232-sir.ko drivers/net/irda/toim3232-sir.o drivers/net/irda/toim3232-sir.mod.o

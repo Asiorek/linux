@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/aesni-intel.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o arch/x86/crypto/aesni-intel.ko arch/x86/crypto/aesni-intel.o arch/x86/crypto/aesni-intel.mod.o

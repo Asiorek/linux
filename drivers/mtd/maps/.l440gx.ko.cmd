@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/l440gx.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/mtd/maps/l440gx.ko drivers/mtd/maps/l440gx.o drivers/mtd/maps/l440gx.mod.o

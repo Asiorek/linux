@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/crc32-pclmul.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o arch/x86/crypto/crc32-pclmul.ko arch/x86/crypto/crc32-pclmul.o arch/x86/crypto/crc32-pclmul.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/ma600-sir.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/irda/ma600-sir.ko drivers/net/irda/ma600-sir.o drivers/net/irda/ma600-sir.mod.o

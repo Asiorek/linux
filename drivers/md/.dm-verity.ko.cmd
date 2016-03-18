@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-verity.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/md/dm-verity.ko drivers/md/dm-verity.o drivers/md/dm-verity.mod.o

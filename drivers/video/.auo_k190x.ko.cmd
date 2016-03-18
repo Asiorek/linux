@@ -1,0 +1,1 @@
+cmd_drivers/video/auo_k190x.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/auo_k190x.ko drivers/video/auo_k190x.o drivers/video/auo_k190x.mod.o

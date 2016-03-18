@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pfuze100-regulator.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/pfuze100-regulator.ko drivers/regulator/pfuze100-regulator.o drivers/regulator/pfuze100-regulator.mod.o

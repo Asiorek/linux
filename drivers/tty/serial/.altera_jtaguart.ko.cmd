@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/altera_jtaguart.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/tty/serial/altera_jtaguart.ko drivers/tty/serial/altera_jtaguart.o drivers/tty/serial/altera_jtaguart.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/lms283gf05.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/backlight/lms283gf05.ko drivers/video/backlight/lms283gf05.o drivers/video/backlight/lms283gf05.mod.o

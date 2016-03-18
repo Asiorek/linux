@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ti_am335x_tsc.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ti_am335x_tsc.ko drivers/input/touchscreen/ti_am335x_tsc.o drivers/input/touchscreen/ti_am335x_tsc.mod.o

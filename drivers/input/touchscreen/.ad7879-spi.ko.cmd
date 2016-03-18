@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ad7879-spi.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ad7879-spi.ko drivers/input/touchscreen/ad7879-spi.o drivers/input/touchscreen/ad7879-spi.mod.o

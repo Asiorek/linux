@@ -1,0 +1,1 @@
+cmd_drivers/misc/ti_dac7512.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/misc/ti_dac7512.ko drivers/misc/ti_dac7512.o drivers/misc/ti_dac7512.mod.o

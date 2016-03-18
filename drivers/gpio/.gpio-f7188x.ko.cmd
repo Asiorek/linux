@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-f7188x.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-f7188x.ko drivers/gpio/gpio-f7188x.o drivers/gpio/gpio-f7188x.mod.o

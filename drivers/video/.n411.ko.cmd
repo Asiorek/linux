@@ -1,0 +1,1 @@
+cmd_drivers/video/n411.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/n411.ko drivers/video/n411.o drivers/video/n411.mod.o

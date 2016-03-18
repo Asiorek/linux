@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_net.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_hash_net.ko net/netfilter/ipset/ip_set_hash_net.o net/netfilter/ipset/ip_set_hash_net.mod.o

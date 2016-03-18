@@ -1,0 +1,1 @@
+cmd_drivers/remoteproc/ste_modem_rproc.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/remoteproc/ste_modem_rproc.ko drivers/remoteproc/ste_modem_rproc.o drivers/remoteproc/ste_modem_rproc.mod.o

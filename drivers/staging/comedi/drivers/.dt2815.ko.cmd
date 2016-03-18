@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/dt2815.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/dt2815.ko drivers/staging/comedi/drivers/dt2815.o drivers/staging/comedi/drivers/dt2815.mod.o

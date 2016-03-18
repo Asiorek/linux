@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-it8761e.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-it8761e.ko drivers/gpio/gpio-it8761e.o drivers/gpio/gpio-it8761e.mod.o

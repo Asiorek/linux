@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-backlight.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/leds/trigger/ledtrig-backlight.ko drivers/leds/trigger/ledtrig-backlight.o drivers/leds/trigger/ledtrig-backlight.mod.o

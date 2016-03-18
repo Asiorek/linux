@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtlwifi/rtl8192c/rtl8192c-common.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtlwifi/rtl8192c/rtl8192c-common.ko drivers/net/wireless/rtlwifi/rtl8192c/rtl8192c-common.o drivers/net/wireless/rtlwifi/rtl8192c/rtl8192c-common.mod.o

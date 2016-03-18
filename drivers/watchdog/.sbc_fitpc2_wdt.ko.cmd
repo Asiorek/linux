@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/sbc_fitpc2_wdt.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/watchdog/sbc_fitpc2_wdt.ko drivers/watchdog/sbc_fitpc2_wdt.o drivers/watchdog/sbc_fitpc2_wdt.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/lapbether.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wan/lapbether.ko drivers/net/wan/lapbether.o drivers/net/wan/lapbether.mod.o

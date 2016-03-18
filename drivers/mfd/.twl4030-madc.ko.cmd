@@ -1,0 +1,1 @@
+cmd_drivers/mfd/twl4030-madc.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/mfd/twl4030-madc.ko drivers/mfd/twl4030-madc.o drivers/mfd/twl4030-madc.mod.o

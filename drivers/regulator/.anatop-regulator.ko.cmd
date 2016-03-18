@@ -1,0 +1,1 @@
+cmd_drivers/regulator/anatop-regulator.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/anatop-regulator.ko drivers/regulator/anatop-regulator.o drivers/regulator/anatop-regulator.mod.o

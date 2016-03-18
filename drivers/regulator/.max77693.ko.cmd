@@ -1,0 +1,1 @@
+cmd_drivers/regulator/max77693.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/max77693.ko drivers/regulator/max77693.o drivers/regulator/max77693.mod.o

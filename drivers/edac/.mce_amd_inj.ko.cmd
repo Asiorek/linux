@@ -1,0 +1,1 @@
+cmd_drivers/edac/mce_amd_inj.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/edac/mce_amd_inj.ko drivers/edac/mce_amd_inj.o drivers/edac/mce_amd_inj.mod.o

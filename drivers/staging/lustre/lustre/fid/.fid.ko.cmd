@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/fid/fid.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/lustre/lustre/fid/fid.ko drivers/staging/lustre/lustre/fid/fid.o drivers/staging/lustre/lustre/fid/fid.mod.o

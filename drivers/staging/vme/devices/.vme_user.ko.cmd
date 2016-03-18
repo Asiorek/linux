@@ -1,0 +1,1 @@
+cmd_drivers/staging/vme/devices/vme_user.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/vme/devices/vme_user.ko drivers/staging/vme/devices/vme_user.o drivers/staging/vme/devices/vme_user.mod.o

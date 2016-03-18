@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-transient.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/leds/trigger/ledtrig-transient.ko drivers/leds/trigger/ledtrig-transient.o drivers/leds/trigger/ledtrig-transient.mod.o

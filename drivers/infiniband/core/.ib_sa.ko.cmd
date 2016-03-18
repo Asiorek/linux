@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/core/ib_sa.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/core/ib_sa.ko drivers/infiniband/core/ib_sa.o drivers/infiniband/core/ib_sa.mod.o

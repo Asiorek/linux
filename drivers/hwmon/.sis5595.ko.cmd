@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/sis5595.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/sis5595.ko drivers/hwmon/sis5595.o drivers/hwmon/sis5595.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/pm2fb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/pm2fb.ko drivers/video/pm2fb.o drivers/video/pm2fb.mod.o

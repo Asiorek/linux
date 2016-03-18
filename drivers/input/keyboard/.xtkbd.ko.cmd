@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/xtkbd.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/keyboard/xtkbd.ko drivers/input/keyboard/xtkbd.o drivers/input/keyboard/xtkbd.mod.o

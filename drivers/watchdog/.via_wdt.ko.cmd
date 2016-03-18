@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/via_wdt.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/watchdog/via_wdt.ko drivers/watchdog/via_wdt.o drivers/watchdog/via_wdt.mod.o

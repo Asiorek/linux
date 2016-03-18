@@ -1,0 +1,1 @@
+cmd_drivers/leds/dell-led.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/leds/dell-led.ko drivers/leds/dell-led.o drivers/leds/dell-led.mod.o

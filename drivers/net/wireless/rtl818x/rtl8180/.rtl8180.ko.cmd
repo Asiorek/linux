@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtl818x/rtl8180/rtl8180.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtl818x/rtl8180/rtl8180.ko drivers/net/wireless/rtl818x/rtl8180/rtl8180.o drivers/net/wireless/rtl818x/rtl8180/rtl8180.mod.o

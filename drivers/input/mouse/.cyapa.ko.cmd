@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/cyapa.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/mouse/cyapa.ko drivers/input/mouse/cyapa.o drivers/input/mouse/cyapa.mod.o

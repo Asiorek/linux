@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/pcap_keys.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/pcap_keys.ko drivers/input/misc/pcap_keys.o drivers/input/misc/pcap_keys.mod.o

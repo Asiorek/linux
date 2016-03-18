@@ -1,0 +1,1 @@
+cmd_drivers/power/tps65090-charger.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/power/tps65090-charger.ko drivers/power/tps65090-charger.o drivers/power/tps65090-charger.mod.o

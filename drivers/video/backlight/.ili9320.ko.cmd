@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/ili9320.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/backlight/ili9320.ko drivers/video/backlight/ili9320.o drivers/video/backlight/ili9320.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_statistic.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/netfilter/xt_statistic.ko net/netfilter/xt_statistic.o net/netfilter/xt_statistic.mod.o

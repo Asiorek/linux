@@ -1,0 +1,1 @@
+cmd_drivers/regulator/lp8788-buck.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/lp8788-buck.ko drivers/regulator/lp8788-buck.o drivers/regulator/lp8788-buck.mod.o

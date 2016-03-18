@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bluecard_cs.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/bluetooth/bluecard_cs.ko drivers/bluetooth/bluecard_cs.o drivers/bluetooth/bluecard_cs.mod.o

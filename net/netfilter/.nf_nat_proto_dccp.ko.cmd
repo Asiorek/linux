@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat_proto_dccp.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/netfilter/nf_nat_proto_dccp.ko net/netfilter/nf_nat_proto_dccp.o net/netfilter/nf_nat_proto_dccp.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-x1205.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-x1205.ko drivers/rtc/rtc-x1205.o drivers/rtc/rtc-x1205.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_activebackup.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/team/team_mode_activebackup.ko drivers/net/team/team_mode_activebackup.o drivers/net/team/team_mode_activebackup.mod.o

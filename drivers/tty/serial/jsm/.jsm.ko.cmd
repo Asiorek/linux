@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/jsm/jsm.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/tty/serial/jsm/jsm.ko drivers/tty/serial/jsm/jsm.o drivers/tty/serial/jsm/jsm.mod.o

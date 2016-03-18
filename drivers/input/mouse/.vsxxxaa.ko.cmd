@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/vsxxxaa.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/mouse/vsxxxaa.ko drivers/input/mouse/vsxxxaa.o drivers/input/mouse/vsxxxaa.mod.o

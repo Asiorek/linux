@@ -1,0 +1,1 @@
+cmd_drivers/misc/dummy-irq.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/misc/dummy-irq.ko drivers/misc/dummy-irq.o drivers/misc/dummy-irq.mod.o

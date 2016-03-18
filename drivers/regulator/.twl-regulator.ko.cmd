@@ -1,0 +1,1 @@
+cmd_drivers/regulator/twl-regulator.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/twl-regulator.ko drivers/regulator/twl-regulator.o drivers/regulator/twl-regulator.mod.o

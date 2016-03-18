@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcap.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-pcap.ko drivers/rtc/rtc-pcap.o drivers/rtc/rtc-pcap.mod.o

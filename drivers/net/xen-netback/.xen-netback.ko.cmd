@@ -1,0 +1,1 @@
+cmd_drivers/net/xen-netback/xen-netback.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/xen-netback/xen-netback.ko drivers/net/xen-netback/xen-netback.o drivers/net/xen-netback/xen-netback.mod.o

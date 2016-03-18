@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lnet/selftest/lnet_selftest.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/lustre/lnet/selftest/lnet_selftest.ko drivers/staging/lustre/lnet/selftest/lnet_selftest.o drivers/staging/lustre/lnet/selftest/lnet_selftest.mod.o

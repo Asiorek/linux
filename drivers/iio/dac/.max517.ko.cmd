@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/max517.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/iio/dac/max517.ko drivers/iio/dac/max517.o drivers/iio/dac/max517.mod.o

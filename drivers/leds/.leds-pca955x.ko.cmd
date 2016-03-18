@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-pca955x.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/leds/leds-pca955x.ko drivers/leds/leds-pca955x.o drivers/leds/leds-pca955x.mod.o

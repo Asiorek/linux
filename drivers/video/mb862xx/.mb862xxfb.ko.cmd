@@ -1,0 +1,1 @@
+cmd_drivers/video/mb862xx/mb862xxfb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/mb862xx/mb862xxfb.ko drivers/video/mb862xx/mb862xxfb.o drivers/video/mb862xx/mb862xxfb.mod.o

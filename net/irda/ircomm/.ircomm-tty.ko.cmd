@@ -1,0 +1,1 @@
+cmd_net/irda/ircomm/ircomm-tty.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/irda/ircomm/ircomm-tty.ko net/irda/ircomm/ircomm-tty.o net/irda/ircomm/ircomm-tty.mod.o

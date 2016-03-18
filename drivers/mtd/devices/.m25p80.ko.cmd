@@ -1,0 +1,1 @@
+cmd_drivers/mtd/devices/m25p80.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/mtd/devices/m25p80.ko drivers/mtd/devices/m25p80.o drivers/mtd/devices/m25p80.mod.o

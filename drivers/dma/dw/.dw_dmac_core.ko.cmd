@@ -1,0 +1,1 @@
+cmd_drivers/dma/dw/dw_dmac_core.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/dma/dw/dw_dmac_core.ko drivers/dma/dw/dw_dmac_core.o drivers/dma/dw/dw_dmac_core.mod.o

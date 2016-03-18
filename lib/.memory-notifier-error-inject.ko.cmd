@@ -1,0 +1,1 @@
+cmd_lib/memory-notifier-error-inject.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o lib/memory-notifier-error-inject.ko lib/memory-notifier-error-inject.o lib/memory-notifier-error-inject.mod.o

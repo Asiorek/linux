@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/at86rf230.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/ieee802154/at86rf230.ko drivers/net/ieee802154/at86rf230.o drivers/net/ieee802154/at86rf230.mod.o

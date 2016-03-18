@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-ds3234.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-ds3234.ko drivers/rtc/rtc-ds3234.o drivers/rtc/rtc-ds3234.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps65910-regulator.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/tps65910-regulator.ko drivers/regulator/tps65910-regulator.o drivers/regulator/tps65910-regulator.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/mma8450.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/mma8450.ko drivers/input/misc/mma8450.o drivers/input/misc/mma8450.mod.o

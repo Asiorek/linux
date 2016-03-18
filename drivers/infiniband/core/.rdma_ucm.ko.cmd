@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/core/rdma_ucm.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/core/rdma_ucm.ko drivers/infiniband/core/rdma_ucm.o drivers/infiniband/core/rdma_ucm.mod.o

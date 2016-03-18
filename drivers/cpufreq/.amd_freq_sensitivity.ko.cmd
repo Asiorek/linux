@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/amd_freq_sensitivity.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/cpufreq/amd_freq_sensitivity.ko drivers/cpufreq/amd_freq_sensitivity.o drivers/cpufreq/amd_freq_sensitivity.mod.o

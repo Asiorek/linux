@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-da9055.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-da9055.ko drivers/rtc/rtc-da9055.o drivers/rtc/rtc-da9055.mod.o

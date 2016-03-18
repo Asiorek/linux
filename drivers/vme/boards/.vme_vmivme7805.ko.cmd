@@ -1,0 +1,1 @@
+cmd_drivers/vme/boards/vme_vmivme7805.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/vme/boards/vme_vmivme7805.ko drivers/vme/boards/vme_vmivme7805.o drivers/vme/boards/vme_vmivme7805.mod.o

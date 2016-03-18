@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/emu10k1-gp.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/gameport/emu10k1-gp.ko drivers/input/gameport/emu10k1-gp.o drivers/input/gameport/emu10k1-gp.mod.o

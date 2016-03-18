@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/ast/ast.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/gpu/drm/ast/ast.ko drivers/gpu/drm/ast/ast.o drivers/gpu/drm/ast/ast.mod.o

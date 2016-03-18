@@ -1,0 +1,1 @@
+cmd_drivers/net/caif/caif_hsi.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/caif/caif_hsi.ko drivers/net/caif/caif_hsi.o drivers/net/caif/caif_hsi.mod.o

@@ -1,0 +1,1 @@
+cmd_crypto/cast6_generic.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o crypto/cast6_generic.ko crypto/cast6_generic.o crypto/cast6_generic.mod.o

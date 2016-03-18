@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/lm25066.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/lm25066.ko drivers/hwmon/pmbus/lm25066.o drivers/hwmon/pmbus/lm25066.mod.o

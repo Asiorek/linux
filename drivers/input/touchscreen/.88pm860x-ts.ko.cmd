@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/88pm860x-ts.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/88pm860x-ts.ko drivers/input/touchscreen/88pm860x-ts.o drivers/input/touchscreen/88pm860x-ts.mod.o

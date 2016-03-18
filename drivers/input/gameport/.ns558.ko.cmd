@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/ns558.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/gameport/ns558.ko drivers/input/gameport/ns558.o drivers/input/gameport/ns558.mod.o

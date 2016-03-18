@@ -1,0 +1,1 @@
+cmd_drivers/scsi/pcmcia/qlogic_cs.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/scsi/pcmcia/qlogic_cs.ko drivers/scsi/pcmcia/qlogic_cs.o drivers/scsi/pcmcia/qlogic_cs.mod.o

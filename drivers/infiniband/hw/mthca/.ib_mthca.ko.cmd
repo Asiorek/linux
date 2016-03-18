@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/mthca/ib_mthca.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/hw/mthca/ib_mthca.ko drivers/infiniband/hw/mthca/ib_mthca.o drivers/infiniband/hw/mthca/ib_mthca.mod.o

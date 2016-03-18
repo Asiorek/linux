@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/isert/ib_isert.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/ulp/isert/ib_isert.ko drivers/infiniband/ulp/isert/ib_isert.o drivers/infiniband/ulp/isert/ib_isert.mod.o

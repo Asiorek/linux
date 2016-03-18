@@ -1,0 +1,1 @@
+cmd_drivers/misc/tifm_core.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/misc/tifm_core.ko drivers/misc/tifm_core.o drivers/misc/tifm_core.mod.o

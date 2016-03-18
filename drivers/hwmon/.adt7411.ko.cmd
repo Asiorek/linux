@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adt7411.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/adt7411.ko drivers/hwmon/adt7411.o drivers/hwmon/adt7411.mod.o

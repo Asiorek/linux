@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/x25_asy.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wan/x25_asy.ko drivers/net/wan/x25_asy.o drivers/net/wan/x25_asy.mod.o

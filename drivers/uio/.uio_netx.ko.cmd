@@ -1,0 +1,1 @@
+cmd_drivers/uio/uio_netx.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/uio/uio_netx.ko drivers/uio/uio_netx.o drivers/uio/uio_netx.mod.o

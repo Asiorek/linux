@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/dme1737.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/dme1737.ko drivers/hwmon/dme1737.o drivers/hwmon/dme1737.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-pinctrl.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/i2c/muxes/i2c-mux-pinctrl.ko drivers/i2c/muxes/i2c-mux-pinctrl.o drivers/i2c/muxes/i2c-mux-pinctrl.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/idt_gen2.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/rapidio/switches/idt_gen2.ko drivers/rapidio/switches/idt_gen2.o drivers/rapidio/switches/idt_gen2.mod.o

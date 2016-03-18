@@ -1,0 +1,1 @@
+cmd_drivers/video/riva/rivafb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/riva/rivafb.ko drivers/video/riva/rivafb.o drivers/video/riva/rivafb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/edac/amd64_edac_mod.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/edac/amd64_edac_mod.ko drivers/edac/amd64_edac_mod.o drivers/edac/amd64_edac_mod.mod.o

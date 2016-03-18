@@ -1,0 +1,1 @@
+cmd_drivers/staging/mt29f_spinand/mt29f_spinand.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/mt29f_spinand/mt29f_spinand.ko drivers/staging/mt29f_spinand/mt29f_spinand.o drivers/staging/mt29f_spinand/mt29f_spinand.mod.o

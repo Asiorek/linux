@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/tdo24m.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/backlight/tdo24m.ko drivers/video/backlight/tdo24m.o drivers/video/backlight/tdo24m.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/sis/sisfb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/sis/sisfb.ko drivers/video/sis/sisfb.o drivers/video/sis/sisfb.mod.o

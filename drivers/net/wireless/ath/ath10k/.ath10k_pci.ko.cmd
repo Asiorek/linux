@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath10k/ath10k_pci.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ath10k/ath10k_pci.ko drivers/net/wireless/ath/ath10k/ath10k_pci.o drivers/net/wireless/ath/ath10k/ath10k_pci.mod.o

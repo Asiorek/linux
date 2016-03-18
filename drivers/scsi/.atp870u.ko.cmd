@@ -1,0 +1,1 @@
+cmd_drivers/scsi/atp870u.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/scsi/atp870u.ko drivers/scsi/atp870u.o drivers/scsi/atp870u.mod.o

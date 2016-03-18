@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/ad5449.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/iio/dac/ad5449.ko drivers/iio/dac/ad5449.o drivers/iio/dac/ad5449.mod.o

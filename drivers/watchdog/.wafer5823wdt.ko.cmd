@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/wafer5823wdt.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/watchdog/wafer5823wdt.ko drivers/watchdog/wafer5823wdt.o drivers/watchdog/wafer5823wdt.mod.o

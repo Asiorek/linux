@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/adxl34x-spi.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/adxl34x-spi.ko drivers/input/misc/adxl34x-spi.o drivers/input/misc/adxl34x-spi.mod.o

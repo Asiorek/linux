@@ -9,7 +9,7 @@
 #
 # Normal rules
 #
-.*
+
 *.o
 *.o.*
 *.a
@@ -40,8 +40,7 @@ modules.builtin
 /tags
 /TAGS
 /linux
-/vmlinux
-/vmlinuz
+
 /System.map
 /Module.markers
 /Module.symvers

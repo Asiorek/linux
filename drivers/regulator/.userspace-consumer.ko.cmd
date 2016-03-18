@@ -1,0 +1,1 @@
+cmd_drivers/regulator/userspace-consumer.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/userspace-consumer.ko drivers/regulator/userspace-consumer.o drivers/regulator/userspace-consumer.mod.o

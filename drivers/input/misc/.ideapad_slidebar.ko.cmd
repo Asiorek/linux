@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/ideapad_slidebar.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/ideapad_slidebar.ko drivers/input/misc/ideapad_slidebar.o drivers/input/misc/ideapad_slidebar.mod.o

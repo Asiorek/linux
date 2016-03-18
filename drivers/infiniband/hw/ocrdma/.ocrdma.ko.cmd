@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/ocrdma/ocrdma.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/hw/ocrdma/ocrdma.ko drivers/infiniband/hw/ocrdma/ocrdma.o drivers/infiniband/hw/ocrdma/ocrdma.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel-smartconnect.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/platform/x86/intel-smartconnect.ko drivers/platform/x86/intel-smartconnect.o drivers/platform/x86/intel-smartconnect.mod.o

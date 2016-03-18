@@ -1,0 +1,1 @@
+cmd_net/sctp/sctp_probe.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/sctp/sctp_probe.ko net/sctp/sctp_probe.o net/sctp/sctp_probe.mod.o

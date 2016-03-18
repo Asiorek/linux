@@ -1,0 +1,1 @@
+cmd_drivers/staging/ste_rmi4/synaptics_i2c_rmi4.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/ste_rmi4/synaptics_i2c_rmi4.ko drivers/staging/ste_rmi4/synaptics_i2c_rmi4.o drivers/staging/ste_rmi4/synaptics_i2c_rmi4.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/max8925_onkey.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/max8925_onkey.ko drivers/input/misc/max8925_onkey.o drivers/input/misc/max8925_onkey.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/vfio/vfio_iommu_type1.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/vfio/vfio_iommu_type1.ko drivers/vfio/vfio_iommu_type1.o drivers/vfio/vfio_iommu_type1.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/hid-sensor-magn-3d.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/hid-sensor-magn-3d.ko drivers/iio/magnetometer/hid-sensor-magn-3d.o drivers/iio/magnetometer/hid-sensor-magn-3d.mod.o

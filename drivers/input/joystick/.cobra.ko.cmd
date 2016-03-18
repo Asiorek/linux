@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/cobra.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/joystick/cobra.ko drivers/input/joystick/cobra.o drivers/input/joystick/cobra.mod.o

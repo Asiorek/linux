@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/dell-wmi-aio.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/platform/x86/dell-wmi-aio.ko drivers/platform/x86/dell-wmi-aio.o drivers/platform/x86/dell-wmi-aio.mod.o

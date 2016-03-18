@@ -1,0 +1,1 @@
+cmd_lib/notifier-error-inject.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o lib/notifier-error-inject.ko lib/notifier-error-inject.o lib/notifier-error-inject.mod.o

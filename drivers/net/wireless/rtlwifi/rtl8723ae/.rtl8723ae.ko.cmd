@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtlwifi/rtl8723ae/rtl8723ae.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtlwifi/rtl8723ae/rtl8723ae.ko drivers/net/wireless/rtlwifi/rtl8723ae/rtl8723ae.o drivers/net/wireless/rtlwifi/rtl8723ae/rtl8723ae.mod.o

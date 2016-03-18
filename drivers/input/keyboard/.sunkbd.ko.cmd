@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/sunkbd.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/keyboard/sunkbd.ko drivers/input/keyboard/sunkbd.o drivers/input/keyboard/sunkbd.mod.o

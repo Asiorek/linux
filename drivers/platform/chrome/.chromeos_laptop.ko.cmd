@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/chromeos_laptop.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/platform/chrome/chromeos_laptop.ko drivers/platform/chrome/chromeos_laptop.o drivers/platform/chrome/chromeos_laptop.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/cxgb3/iw_cxgb3.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/hw/cxgb3/iw_cxgb3.ko drivers/infiniband/hw/cxgb3/iw_cxgb3.o drivers/infiniband/hw/cxgb3/iw_cxgb3.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83627ehf.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/w83627ehf.ko drivers/hwmon/w83627ehf.o drivers/hwmon/w83627ehf.mod.o

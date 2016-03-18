@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/rtsx_pci_sdmmc.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/mmc/host/rtsx_pci_sdmmc.ko drivers/mmc/host/rtsx_pci_sdmmc.o drivers/mmc/host/rtsx_pci_sdmmc.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mic/host/mic_host.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/misc/mic/host/mic_host.ko drivers/misc/mic/host/mic_host.o drivers/misc/mic/host/mic_host.mod.o

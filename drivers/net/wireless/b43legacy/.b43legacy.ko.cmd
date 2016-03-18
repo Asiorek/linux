@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/b43legacy/b43legacy.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/b43legacy/b43legacy.ko drivers/net/wireless/b43legacy/b43legacy.o drivers/net/wireless/b43legacy/b43legacy.mod.o

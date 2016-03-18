@@ -1,0 +1,1 @@
+cmd_drivers/firewire/firewire-net.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/firewire/firewire-net.ko drivers/firewire/firewire-net.o drivers/firewire/firewire-net.mod.o

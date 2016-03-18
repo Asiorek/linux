@@ -1,0 +1,1 @@
+cmd_drivers/video/hyperv_fb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/hyperv_fb.ko drivers/video/hyperv_fb.o drivers/video/hyperv_fb.mod.o

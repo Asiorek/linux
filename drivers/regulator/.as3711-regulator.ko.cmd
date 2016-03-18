@@ -1,0 +1,1 @@
+cmd_drivers/regulator/as3711-regulator.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/as3711-regulator.ko drivers/regulator/as3711-regulator.o drivers/regulator/as3711-regulator.mod.o

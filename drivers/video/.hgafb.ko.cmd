@@ -1,0 +1,1 @@
+cmd_drivers/video/hgafb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/hgafb.ko drivers/video/hgafb.o drivers/video/hgafb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/nfc/mei_phy.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/nfc/mei_phy.ko drivers/nfc/mei_phy.o drivers/nfc/mei_phy.mod.o

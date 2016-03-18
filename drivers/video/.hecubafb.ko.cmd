@@ -1,0 +1,1 @@
+cmd_drivers/video/hecubafb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/hecubafb.ko drivers/video/hecubafb.o drivers/video/hecubafb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/sysimgblt.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/sysimgblt.ko drivers/video/sysimgblt.o drivers/video/sysimgblt.mod.o

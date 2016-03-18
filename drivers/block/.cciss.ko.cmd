@@ -1,0 +1,1 @@
+cmd_drivers/block/cciss.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/block/cciss.ko drivers/block/cciss.o drivers/block/cciss.mod.o

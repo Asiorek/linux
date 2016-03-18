@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-thingm.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hid/hid-thingm.ko drivers/hid/hid-thingm.o drivers/hid/hid-thingm.mod.o

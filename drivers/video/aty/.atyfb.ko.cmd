@@ -1,0 +1,1 @@
+cmd_drivers/video/aty/atyfb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/aty/atyfb.ko drivers/video/aty/atyfb.o drivers/video/aty/atyfb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/macmodes.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/macmodes.ko drivers/video/macmodes.o drivers/video/macmodes.mod.o

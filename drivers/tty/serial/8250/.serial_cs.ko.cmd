@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/8250/serial_cs.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/tty/serial/8250/serial_cs.ko drivers/tty/serial/8250/serial_cs.o drivers/tty/serial/8250/serial_cs.mod.o

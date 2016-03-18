@@ -1,0 +1,1 @@
+cmd_drivers/mfd/tps65010.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/mfd/tps65010.ko drivers/mfd/tps65010.o drivers/mfd/tps65010.mod.o

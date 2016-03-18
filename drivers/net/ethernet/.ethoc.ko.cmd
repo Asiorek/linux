@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ethoc.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/ethernet/ethoc.ko drivers/net/ethernet/ethoc.o drivers/net/ethernet/ethoc.mod.o

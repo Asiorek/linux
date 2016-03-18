@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/lmv/lmv.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/lustre/lustre/lmv/lmv.ko drivers/staging/lustre/lustre/lmv/lmv.o drivers/staging/lustre/lustre/lmv/lmv.mod.o

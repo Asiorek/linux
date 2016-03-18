@@ -1,0 +1,1 @@
+cmd_drivers/message/fusion/mptspi.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/message/fusion/mptspi.ko drivers/message/fusion/mptspi.o drivers/message/fusion/mptspi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/tmp421.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/tmp421.ko drivers/hwmon/tmp421.o drivers/hwmon/tmp421.mod.o

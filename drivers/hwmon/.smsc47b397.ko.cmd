@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/smsc47b397.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/smsc47b397.ko drivers/hwmon/smsc47b397.o drivers/hwmon/smsc47b397.mod.o

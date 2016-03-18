@@ -1,0 +1,1 @@
+cmd_drivers/power/max8903_charger.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/power/max8903_charger.ko drivers/power/max8903_charger.o drivers/power/max8903_charger.mod.o

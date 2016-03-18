@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_netlink.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_netlink.ko net/netfilter/nf_conntrack_netlink.o net/netfilter/nf_conntrack_netlink.mod.o

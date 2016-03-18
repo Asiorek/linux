@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn544/pn544_mei.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/nfc/pn544/pn544_mei.ko drivers/nfc/pn544/pn544_mei.o drivers/nfc/pn544/pn544_mei.mod.o

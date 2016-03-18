@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/meter/ade7854-spi.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/iio/meter/ade7854-spi.ko drivers/staging/iio/meter/ade7854-spi.o drivers/staging/iio/meter/ade7854-spi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/matrox/g450_pll.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/matrox/g450_pll.ko drivers/video/matrox/g450_pll.o drivers/video/matrox/g450_pll.mod.o

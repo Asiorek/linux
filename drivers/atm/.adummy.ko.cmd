@@ -1,0 +1,1 @@
+cmd_drivers/atm/adummy.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/atm/adummy.ko drivers/atm/adummy.o drivers/atm/adummy.mod.o

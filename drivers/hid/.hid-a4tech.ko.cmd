@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-a4tech.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hid/hid-a4tech.ko drivers/hid/hid-a4tech.o drivers/hid/hid-a4tech.mod.o

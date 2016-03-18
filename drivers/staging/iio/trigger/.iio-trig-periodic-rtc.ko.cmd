@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/trigger/iio-trig-periodic-rtc.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/iio/trigger/iio-trig-periodic-rtc.ko drivers/staging/iio/trigger/iio-trig-periodic-rtc.o drivers/staging/iio/trigger/iio-trig-periodic-rtc.mod.o

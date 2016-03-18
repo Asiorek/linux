@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pc87360.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/pc87360.ko drivers/hwmon/pc87360.o drivers/hwmon/pc87360.mod.o

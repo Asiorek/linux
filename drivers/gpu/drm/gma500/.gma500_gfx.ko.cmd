@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/gma500/gma500_gfx.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/gpu/drm/gma500/gma500_gfx.ko drivers/gpu/drm/gma500/gma500_gfx.o drivers/gpu/drm/gma500/gma500_gfx.mod.o

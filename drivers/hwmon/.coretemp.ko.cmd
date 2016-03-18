@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/coretemp.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/coretemp.ko drivers/hwmon/coretemp.o drivers/hwmon/coretemp.mod.o

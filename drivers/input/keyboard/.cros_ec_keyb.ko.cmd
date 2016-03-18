@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/cros_ec_keyb.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/keyboard/cros_ec_keyb.ko drivers/input/keyboard/cros_ec_keyb.o drivers/input/keyboard/cros_ec_keyb.mod.o

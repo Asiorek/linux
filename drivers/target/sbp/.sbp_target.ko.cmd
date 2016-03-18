@@ -1,0 +1,1 @@
+cmd_drivers/target/sbp/sbp_target.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/target/sbp/sbp_target.ko drivers/target/sbp/sbp_target.o drivers/target/sbp/sbp_target.mod.o

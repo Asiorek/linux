@@ -1,0 +1,1 @@
+cmd_net/irda/irlan/irlan.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/irda/irlan/irlan.ko net/irda/irlan/irlan.o net/irda/irlan/irlan.mod.o

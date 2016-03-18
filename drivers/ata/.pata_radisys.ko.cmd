@@ -1,0 +1,1 @@
+cmd_drivers/ata/pata_radisys.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/ata/pata_radisys.ko drivers/ata/pata_radisys.o drivers/ata/pata_radisys.mod.o

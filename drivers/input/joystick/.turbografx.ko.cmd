@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/turbografx.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/joystick/turbografx.ko drivers/input/joystick/turbografx.o drivers/input/joystick/turbografx.mod.o

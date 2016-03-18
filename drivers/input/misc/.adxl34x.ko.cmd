@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/adxl34x.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/adxl34x.ko drivers/input/misc/adxl34x.o drivers/input/misc/adxl34x.mod.o

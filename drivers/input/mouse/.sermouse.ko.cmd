@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/sermouse.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/mouse/sermouse.ko drivers/input/mouse/sermouse.o drivers/input/mouse/sermouse.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/fmc/fmc-trivial.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/fmc/fmc-trivial.ko drivers/fmc/fmc-trivial.o drivers/fmc/fmc-trivial.mod.o

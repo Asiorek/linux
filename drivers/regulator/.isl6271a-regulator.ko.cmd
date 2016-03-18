@@ -1,0 +1,1 @@
+cmd_drivers/regulator/isl6271a-regulator.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/isl6271a-regulator.ko drivers/regulator/isl6271a-regulator.o drivers/regulator/isl6271a-regulator.mod.o

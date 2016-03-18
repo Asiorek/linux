@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/pcmciamtd.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/mtd/maps/pcmciamtd.ko drivers/mtd/maps/pcmciamtd.o drivers/mtd/maps/pcmciamtd.mod.o

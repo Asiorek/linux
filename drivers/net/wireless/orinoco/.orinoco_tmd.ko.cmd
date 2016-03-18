@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/orinoco/orinoco_tmd.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/wireless/orinoco/orinoco_tmd.ko drivers/net/wireless/orinoco/orinoco_tmd.o drivers/net/wireless/orinoco/orinoco_tmd.mod.o

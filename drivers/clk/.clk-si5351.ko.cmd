@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-si5351.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/clk/clk-si5351.ko drivers/clk/clk-si5351.o drivers/clk/clk-si5351.mod.o

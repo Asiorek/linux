@@ -1,0 +1,1 @@
+cmd_drivers/staging/ft1000/ft1000-pcmcia/ft1000_pcmcia.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/ft1000/ft1000-pcmcia/ft1000_pcmcia.ko drivers/staging/ft1000/ft1000-pcmcia/ft1000_pcmcia.o drivers/staging/ft1000/ft1000-pcmcia/ft1000_pcmcia.mod.o

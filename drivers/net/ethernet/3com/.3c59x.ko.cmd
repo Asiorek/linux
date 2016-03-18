@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/3com/3c59x.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/ethernet/3com/3c59x.ko drivers/net/ethernet/3com/3c59x.o drivers/net/ethernet/3com/3c59x.mod.o

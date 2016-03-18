@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/pixcir_i2c_ts.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/pixcir_i2c_ts.ko drivers/input/touchscreen/pixcir_i2c_ts.o drivers/input/touchscreen/pixcir_i2c_ts.mod.o

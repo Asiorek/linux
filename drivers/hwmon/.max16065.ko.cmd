@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/max16065.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/max16065.ko drivers/hwmon/max16065.o drivers/hwmon/max16065.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lp55xx-common.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/leds/leds-lp55xx-common.ko drivers/leds/leds-lp55xx-common.o drivers/leds/leds-lp55xx-common.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-zpff.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hid/hid-zpff.ko drivers/hid/hid-zpff.o drivers/hid/hid-zpff.mod.o

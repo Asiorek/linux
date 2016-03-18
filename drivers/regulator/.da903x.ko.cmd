@@ -1,0 +1,1 @@
+cmd_drivers/regulator/da903x.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/da903x.ko drivers/regulator/da903x.o drivers/regulator/da903x.mod.o

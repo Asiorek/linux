@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpuid.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o arch/x86/kernel/cpuid.ko arch/x86/kernel/cpuid.o arch/x86/kernel/cpuid.mod.o

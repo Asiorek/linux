@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpu/capflags.c := /bin/bash /home/joanna/Dokumenty/6term/Systemy/linux/arch/x86/kernel/cpu/mkcapflags.sh arch/x86/kernel/cpu/../../include/asm/cpufeature.h arch/x86/kernel/cpu/capflags.c

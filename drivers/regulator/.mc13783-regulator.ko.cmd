@@ -1,0 +1,1 @@
+cmd_drivers/regulator/mc13783-regulator.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/regulator/mc13783-regulator.ko drivers/regulator/mc13783-regulator.o drivers/regulator/mc13783-regulator.mod.o

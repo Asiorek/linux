@@ -1,0 +1,1 @@
+cmd_drivers/video/matrox/matroxfb_DAC1064.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/matrox/matroxfb_DAC1064.ko drivers/video/matrox/matroxfb_DAC1064.o drivers/video/matrox/matroxfb_DAC1064.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/aacraid/aacraid.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/scsi/aacraid/aacraid.ko drivers/scsi/aacraid/aacraid.o drivers/scsi/aacraid/aacraid.mod.o

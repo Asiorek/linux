@@ -1,0 +1,1 @@
+cmd_net/decnet/netfilter/dn_rtmsg.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o net/decnet/netfilter/dn_rtmsg.ko net/decnet/netfilter/dn_rtmsg.o net/decnet/netfilter/dn_rtmsg.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/pcmcia/i82092.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/pcmcia/i82092.ko drivers/pcmcia/i82092.o drivers/pcmcia/i82092.mod.o

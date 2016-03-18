@@ -1,0 +1,1 @@
+cmd_drivers/video/matrox/matroxfb_misc.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/video/matrox/matroxfb_misc.ko drivers/video/matrox/matroxfb_misc.o drivers/video/matrox/matroxfb_misc.mod.o

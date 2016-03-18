@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/st_accel_i2c.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/iio/accel/st_accel_i2c.ko drivers/iio/accel/st_accel_i2c.o drivers/iio/accel/st_accel_i2c.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/char/ipmi/ipmi_msghandler.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/char/ipmi/ipmi_msghandler.ko drivers/char/ipmi/ipmi_msghandler.o drivers/char/ipmi/ipmi_msghandler.mod.o

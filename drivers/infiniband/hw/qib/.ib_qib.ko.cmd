@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/qib/ib_qib.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/infiniband/hw/qib/ib_qib.ko drivers/infiniband/hw/qib/ib_qib.o drivers/infiniband/hw/qib/ib_qib.mod.o

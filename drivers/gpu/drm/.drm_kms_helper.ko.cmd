@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_kms_helper.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/gpu/drm/drm_kms_helper.ko drivers/gpu/drm/drm_kms_helper.o drivers/gpu/drm/drm_kms_helper.mod.o

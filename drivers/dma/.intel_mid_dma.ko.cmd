@@ -1,0 +1,1 @@
+cmd_drivers/dma/intel_mid_dma.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/dma/intel_mid_dma.ko drivers/dma/intel_mid_dma.o drivers/dma/intel_mid_dma.mod.o

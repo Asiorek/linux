@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_labpc_isadma.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/comedi/drivers/ni_labpc_isadma.ko drivers/staging/comedi/drivers/ni_labpc_isadma.o drivers/staging/comedi/drivers/ni_labpc_isadma.mod.o

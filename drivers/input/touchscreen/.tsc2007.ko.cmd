@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc2007.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/tsc2007.ko drivers/input/touchscreen/tsc2007.o drivers/input/touchscreen/tsc2007.mod.o

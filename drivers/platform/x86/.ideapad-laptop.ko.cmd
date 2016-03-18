@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/ideapad-laptop.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/platform/x86/ideapad-laptop.ko drivers/platform/x86/ideapad-laptop.o drivers/platform/x86/ideapad-laptop.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ibmpex.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/hwmon/ibmpex.ko drivers/hwmon/ibmpex.o drivers/hwmon/ibmpex.mod.o

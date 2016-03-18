@@ -1,0 +1,1 @@
+cmd_drivers/net/hyperv/hv_netvsc.ko := ld -r -m elf_i386 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/net/hyperv/hv_netvsc.ko drivers/net/hyperv/hv_netvsc.o drivers/net/hyperv/hv_netvsc.mod.o

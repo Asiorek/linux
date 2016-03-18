@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/xen-kbdfront.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/input/misc/xen-kbdfront.ko drivers/input/misc/xen-kbdfront.o drivers/input/misc/xen-kbdfront.mod.o

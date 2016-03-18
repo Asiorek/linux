@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/obdecho/obdecho.ko := ld -r -m elf_x86_64 -T /home/joanna/Dokumenty/6term/Systemy/linux/scripts/module-common.lds --build-id  -o drivers/staging/lustre/lustre/obdecho/obdecho.ko drivers/staging/lustre/lustre/obdecho/obdecho.o drivers/staging/lustre/lustre/obdecho/obdecho.mod.o
